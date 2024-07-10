@@ -1,0 +1,13 @@
+CREATE TABLE inventaire( 
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT, 
+    mark varchar(100) NOT NULL, 
+    model varchar(100) NOT NULL, 
+    code_inventaire INT NOT NULL,
+    num_serie INT NOT NULL,
+    emplacement varchar(250) NOT NULL,
+    etat int NOT NULL, 
+    annee_inventaire date NOT NULL, 
+    date_achat date NOT NULL, 
+    garantie boolean NOT NULL, 
+    date_creation date NOT NULL, 
+    nom_utilisateur varchar(100));
